@@ -1,0 +1,19 @@
+CST1201 Homework Assignment 1 Solution
+
+5. Sales Prediction
+The East Coast sales division of a company generates 62 percent of total sales. Based on that percentage, write a program that will predict how much the East Coast division will generate if the company has $4.6 million in sales this year. Hint: Use the value 0.62 to represent 62 percent.
+
+12. String Manipulator
+Write a program that asks the user to enter the name of his or her favorite city. Use a String variable to store the input. The program should display the following:
+• The number of characters in the city name
+• The name of the city in all uppercase letters
+• The name of the city in all lowercase letters
+• The first character in the name of the city
+
+17. Ingredient Adjuster
+A cookie recipe calls for the following ingredients:
+• 1.5 cups of sugar
+• 1 cup of butter
+• 2.75 cups of flour
+The recipe produces 48 cookies with these amounts of the ingredients. Write a program that asks the user how many cookies he or she wants to make, and then displays the number of cups of each ingredient needed for the specified number of cookies.
+
