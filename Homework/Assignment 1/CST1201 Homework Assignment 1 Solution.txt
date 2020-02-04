@@ -1,0 +1,46 @@
+CST1201 Homework Assignment 1 Solution
+
+5. Sales Prediction
+The East Coast sales division of a company generates 62 percent of total sales. Based on that percentage, write a program that will predict how much the East Coast division will generate if the company has $4.6 million in sales this year. Hint: Use the value 0.62 to represent 62 percent.
+
+Solution flow:
+
+East Coast sales = 0.62 * total sales
+Total sales = $4.6MM
+Print out: East coast sale is 0.62*$4.6MM
+
+12. String Manipulator
+Write a program that asks the user to enter the name of his or her favorite city. Use a String variable to store the input. The program should display the following:
+• The number of characters in the city name
+• The name of the city in all uppercase letters
+• The name of the city in all lowercase letters
+• The first character in the name of the city
+
+Solution flow:
+
+Get the city name from user
+Print out the number of characters in the city name
+Print out the name of the city in all uppercase letters
+Print out the name of the city in all lowercase letters
+Print out the first character in the name of the city
+
+17. Ingredient Adjuster
+A cookie recipe calls for the following ingredients:
+• 1.5 cups of sugar
+• 1 cup of butter
+• 2.75 cups of flour
+The recipe produces 48 cookies with these amounts of the ingredients. Write a program that asks the user how many cookies he or she wants to make, and then displays the number of cups of each ingredient needed for the specified number of cookies.
+
+Solution flow:
+
+Get the number of cookies.
+Print the cups of sugar needed: 
+	How many cups of sugar is needed for each cookie: 1.5 / 48
+	How many cups of sugar is needed for this number of cookies: number of cookies * 1.5 / 48
+Print the cups of butter needed: 
+	How many cups of butter is needed for each cookie: 1 / 48
+	How many cups of butter is needed for this number of cookies: number of cookies * 1 / 48
+Print the cups of flour needed: 
+	How many cups of flour is needed for each cookie: 2.75 / 48
+	How many cups of flour is needed for this number of cookies: number of cookies * 2.75 / 48
+

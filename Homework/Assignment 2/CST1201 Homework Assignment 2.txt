@@ -1,0 +1,33 @@
+CST1201 Homework Assignment 2
+
+Ch3 Programming Challenges:
+
+Q1. Roman Numerals
+
+Write a program that prompts the user to enter a number within the range of 1 through 10. The program should display the Roman numeral version of that number. If the number is outside the range of 1 through 10, the program should display an error message.
+
+Q9. Shipping Charges
+
+The Fast Freight Shipping Company charges the following rates:
+
+Weight of Package Rate per 500 Miles Shipped
+2 pounds or less $1.10
+Over 2 pounds but not more than 6 pounds $2.20
+Over 6 pounds but not more than 10 pounds $3.70
+Over 10 pounds $3.80
+
+The shipping charges per 500 miles are not prorated. For example, if a 2-pound package is shipped 550 miles, the charges would be $2.20. Write a program that asks the user to enter the weight of a package and then displays the shipping charges.
+
+Q16. Book Club Points
+
+Serendipity Booksellers has a book club that awards points to its customers based on the number of books purchased each month. The points are awarded as follows:
+• If a customer purchases 0 books, he or she earns 0 points.
+• If a customer purchases 1 book, he or she earns 5 points.
+• If a customer purchases 2 books, he or she earns 15 points.
+• If a customer purchases 3 books, he or she earns 30 points.
+• If a customer purchases 4 or more books, he or she earns 60 points.
+
+Write a program that asks the user to enter the number of books that he or she has purchased this month and then displays the number of points awarded. 
+
+Note: Please use two approaches for this question. Use if-else-if-else statement to create one solution, and then use switch statement to create one more solution.
+
