@@ -1,0 +1,43 @@
+CST1201 Homework Assignment 3
+
+4. Pennies for Pay
+Write a program that calculates the amount a person would earn over a period of time if hisor her salary is one penny the first day, two pennies the second day, and continues to doubleeach day. The program should display a table showing the salary for each day, and thenshow the total pay at the end of the period. The output should be displayed in a dollaramount, not the number of pennies.
+
+Input Validation: Do not accept a number less than 1 for the number of days worked
+
+12. Bar Chart
+Write a program that asks the user to enter today’s sales for five stores. The program shoulddisplay a bar chart comparing each store’s sales. Create each bar in the bar chart by displayinga row of asterisks. Each asterisk should represent $100 of sales. Here is an example ofthe program’s output:
+
+Enter today's sales for store 1: 1000 [Enter]
+Enter today's sales for store 2: 1200 [Enter]
+Enter today's sales for store 3: 1800 [Enter]
+Enter today's sales for store 4: 800 [Enter]
+Enter today's sales for store 5: 1900 [Enter]
+
+SALES BAR CHART
+Store 1: **********
+Store 2: ************
+Store 3: ******************
+Store 4: ********
+Store 5: *******************
+
+16. Budget Analysis
+Write a program that asks the user to enter the amount that he or she has budgeted fora month. A loop should then prompt the user to enter each of his or her expenses for themonth, and keep a running total. When the loop finishes, the program should display theamount that the user is over or under budget.
+
+17. Random Number Guessing Game
+Write a program that generates a random number and asks the user to guess what thenumber is. If the user’s guess is higher than the random number, the program should display“Too high, try again.” If the user’s guess is lower than the random number, the programshould display “Too low, try again.” The program should use a loop that repeats until theuser correctly guesses the random number.
+
+18. Random Number Guessing Game Enhancement
+Enhance the program that you wrote for Programming Challenge 17 so it keeps a countof the number of guesses that the user makes. When the user correctly guesses the randomnumber, the program should display the number of guesses.
+
+22. Slot Machine Simulation
+A slot machine is a gambling device that the user inserts money into and then pulls a lever(or presses a button). The slot machine then displays a set of random images. If two or moreof the images match, the user wins an amount of money that the slot machine dispensesback to the user.
+
+Create a program that simulates a slot machine. When the program runs, it should dothe following:
+
+• Asks the user to enter the amount of money he or she wants to enter into the slot machine.
+• Instead of displaying images, the program will randomly select a word from thefollowing list:
+Cherries, Oranges, Plums, Bells, Melons, Bars
+To select a word, the program can generate a random number in the range of 0through 5. If the number is 0, the selected word is Cherries; if the number is 1, theselected word is Oranges; and so forth. The program should randomly select a wordfrom this list three times and display all three of the words.
+• If none of the randomly selected words match, the program will inform the user thathe or she has won $0. If two of the words match, the program will inform the userthat he or she has won two times the amount entered. If three of the words match, theprogram will inform the user that he or she has won three times the amount entered.
+• The program will ask whether the user wants to play again. If so, these steps arerepeated. If not, the program displays the total amount of money entered into the slotmachine and the total amount won.
