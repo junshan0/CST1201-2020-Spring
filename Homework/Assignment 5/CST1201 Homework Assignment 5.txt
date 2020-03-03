@@ -1,0 +1,28 @@
+Homework Assignment 5
+
+1. showChar Method
+
+Write a method named showChar. The method should accept two arguments: a reference to a String object and an integer. The integer argument is a character position within the String, with the first character being at position 0. When the method executes, it should display the character at that character position. Here is an example of a call to the method:
+
+showChar("New York", 2);
+
+In this call, the method will display the character w because it is in position 2. Demonstrate the method in a complete program.
+
+6. Celsius Temperature Table
+
+The formula for converting a temperature from Fahrenheit to Celsius is
+
+C = 5 * (F - 32) / 9
+
+where F is the Fahrenheit temperature and C is the Celsius temperature. Write a method named celsius that accepts a Fahrenheit temperature as an argument. The method should return the temperature, converted to Celsius. Demonstrate the method by calling it in a loop that displays a table of the Fahrenheit temperatures 0 through 20 and their Celsius equivalents.
+
+13. isPrime Method
+
+A prime number is a number that is evenly divisible only by itself and 1. For example, the number 5 is prime because it can be evenly divided only by 1 and 5. The number 6, however, is not prime because it can be divided evenly by 1, 2, 3, and 6. 
+
+Write a method named isPrime, which takes an integer as an argument and returns true if the argument is a prime number, or false otherwise. Demonstrate the method in a complete program.
+
+14. Prime Number List
+
+Use the isPrime method that you wrote in Programming Challenge 13 in a program that stores a list of all the prime numbers from 1 through 100 in a file.
+

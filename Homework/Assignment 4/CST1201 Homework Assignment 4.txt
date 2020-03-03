@@ -1,0 +1,16 @@
+CST1201 Homework Assignment 4
+
+13. File Head Display
+
+Write a program that asks the user for the name of a file. The program should display only
+the first five lines of the file’s contents. If the file contains fewer than five lines, it should
+display the file’s entire contents.
+
+15. Uppercase File Converter
+
+Write a program that asks the user for the names of two files. The first file should be opened
+for reading and the second file should be opened for writing. The program should read
+the contents of the first file, change all characters to uppercase, and store the results in the
+second file. The second file will be a copy of the first file, except that all the characters will
+be uppercase. Use Notepad or another text editor to create a simple file that can be used
+to test the program.
