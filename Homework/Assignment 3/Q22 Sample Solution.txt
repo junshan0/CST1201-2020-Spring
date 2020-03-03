@@ -1,0 +1,148 @@
+/*
+Notes on coding style best practices
+1. Match indentation for all control structures
+2. Always use curly brace for if ... else if ... else
+3. Match indentation for all statements in the same level
+*/
+
+/*
+22. Slot Machine Simulation
+A slot machine is a gambling device that the user inserts money into and then pulls a lever
+(or presses a button). The slot machine then displays a set of random images. If two or more
+of the images match, the user wins an amount of money that the slot machine dispenses
+back to the user.
+Create a program that simulates a slot machine. When the program runs, it should do
+the following:
+• Asks the user to enter the amount of money he or she wants to enter into the slot machine.
+• Instead of displaying images, the program will randomly select a word from the
+following
+list:
+Cherries, Oranges, Plums, Bells, Melons, Bars
+To select a word, the program can generate a random number in the range of 0
+through 5. If the number is 0, the selected word is Cherries; if the number is 1, the
+selected word is Oranges; and so forth. The program should randomly select a word
+from this list three times and display all three of the words.
+• If none of the randomly selected words match, the program will inform the user that
+he or she has won $0. If two of the words match, the program will inform the user
+that he or she has won two times the amount entered. If three of the words match, the
+program will inform the user that he or she has won three times the amount entered.
+• The program will ask whether the user wants to play again. If so, these steps are
+repeated. If not, the program displays the total amount of mon
+*/
+
+
+package mypackage;
+
+import java.util.*;
+import java.util.Random;
+
+public class MySlotMachine {
+	public static void main(String[] args) 
+	{
+		// Asks the user to enter the amount of money
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("Please enter your amount of money: ");
+		int input = keyboard.nextInt();
+		System.out.println(input);
+		
+		Random randomNumbers = new Random(); 
+		// Generate random number 1 in the range of 0 through 5
+		int number1 = randomNumbers.nextInt(6);
+		// Generate random number 2 in the range of 0 through 5
+		int number2 = randomNumbers.nextInt(6);
+		// Generate random number 3 in the range of 0 through 5
+		int number3 = randomNumbers.nextInt(6);
+		System.out.println(" " + number1 + " " + number2 + " " + number3);
+
+		// Matching random number to String: Cherries, Oranges, Plums, Bells, Melons, Bars
+		// Matching a integer between 0 to 5 to Strings: Cherries, Oranges, Plums, Bells, Melons, Bars
+		String fruit1 = "", fruit2 = "", fruit3 = "";
+		switch (number1) {
+		case 0:
+			fruit1 = "Cherries";
+			break;
+		case 1:
+			fruit1 = "Oranges";
+			break;
+		case 2:
+			fruit1 = "Plums";
+			break;
+		case 3:
+			fruit1 = "Bells";
+			break;
+		case 4:
+			fruit1 = "Melons";
+			break;
+		case 5:
+			fruit1 = "Bars";
+			break;
+		}
+		
+		switch (number2) {
+		case 0:
+			fruit2 = "Cherries";
+			break;
+		case 1:
+			fruit2 = "Oranges";
+			break;
+		case 2:
+			fruit2 = "Plums";
+			break;
+		case 3:
+			fruit2 = "Bells";
+			break;
+		case 4:
+			fruit2 = "Melons";
+			break;
+		case 5:
+			fruit2 = "Bars";
+			break;
+		}
+		
+		switch (number3) {
+		case 0:
+			fruit3 = "Cherries";
+			break;
+		case 1:
+			fruit3 = "Oranges";
+			break;
+		case 2:
+			fruit3 = "Plums";
+			break;
+		case 3:
+			fruit3 = "Bells";
+			break;
+		case 4:
+			fruit3 = "Melons";
+			break;
+		case 5:
+			fruit3 = "Bars";
+			break;
+		}
+		
+		System.out.println("Your slot machine output is:");
+		System.out.println(" " + fruit1 + " " + fruit2 + " " + fruit3 );
+		
+		// If three of the words match, won three times 
+		// if fruit1 == fruit2 and fruit1 == fruit3 and fruit2 == fruit3
+		if (fruit1.compareTo(fruit2) == 0 && fruit1.compareTo(fruit3) == 0) {
+			// print out user input * 3 			
+			System.out.println("Congrats! You won " + input * 3);
+		}
+
+		// If two of the words match, inform the user won two times 
+		// if fruit1 == fruit2 or fruit1 == fruit3 or fruit2 == fruit3
+		else if (fruit1.compareTo(fruit2) == 0 || fruit1.compareTo(fruit3) == 0 || fruit2.compareTo(fruit3) == 0) {
+			// print out user input * 3 			
+			System.out.println("Congrats! You won " + input * 2);
+		}
+
+		// If none of the randomly selected words match, inform the user won $0. 
+		//if (fruit1.compareTo(fruit2) != 0 && fruit1.compareTo(fruit3) != 0 && fruit2.compareTo(fruit3) != 0) {
+		else {
+			// print out user input * 3 			
+			System.out.println("Congrats! You won " + input * 2);
+		}
+	}
+}
+
