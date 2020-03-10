@@ -1,0 +1,59 @@
+CST1201 Homework Assignment 6
+
+Note: For this homework, the following must be followed:
+
+1. Proper indentation and usage of curly braces
+2. Input, output, and processing logic must be grouped properly into their own blocks and separated using empty lines.
+3. Detailed comments on what you try to do for each code block.
+4. Each result number must be calculated using a independent method.
+5. Each method must have proper method comments, including @param and @return
+
+
+6. Driver’s License Exam
+
+The local Driver’s License Office has asked you to write a program that grades the written
+portion of the driver’s license exam. The exam has 20 multiple choice questions. Here are
+the correct answers:
+
+1. B
+2. D
+3. A
+4. A
+5. C
+6. A
+7. B
+8. A
+9. C
+10. D
+11. B
+12. C
+13. D
+14. A
+15. D
+16. C
+17. C
+18. B
+19. D
+20. A
+
+A student must correctly answer 15 of the 20 questions to pass the exam.
+
+Write a class named DriverExam that holds the correct answers to the exam in an array field. The class should also have an array field that holds the student’s answers. The class should have the following methods:
+
+• passed. Returns true if the student passed the exam, or false if the student failed
+• totalCorrect. Returns the total number of correctly answered questions
+• totalIncorrect. Returns the total number of incorrectly answered questions
+• questionsMissed. An int array containing the question numbers of the questions that the student missed
+
+Demonstrate the class in a complete program that asks the user to enter a student’s answers, and then displays the results returned from the DriverExam class’s methods.
+
+Input Validation: Only accept the letters A, B, C, or D as answers.
+
+12. Number Analysis Class
+
+Write a class with a constructor that accepts a file name as its argument. Assume the file contains a series of numbers, each written on a separate line. The class should read the contents of the file into an array, and then displays the following data:
+
+• The lowest number in the array
+• The highest number in the array
+• The total of the numbers in the array
+• The average of the numbers in the array
