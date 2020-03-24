@@ -1,0 +1,30 @@
+CST1201 Homework Assignment 7
+
+Note: For this homework, the following must be followed:
+
+1. Proper indentation and usage of curly braces
+2. Input, output, and processing logic must be grouped properly into their own blocks and separated using empty lines.
+3. Detailed comments on what you try to do for each code block.
+4. Each result number must be calculated using a independent method.
+5. Each method must have proper method comments, including @param and @return
+
+Q1: Fibonacci sequence
+The Fibonacci sequence is a sequence of numbers such that each number is the sum of the two preceding ones, starting from 0 and 1. Write an application that will: 
+1. allow users to input an N, 
+2. call a method fib() which returns an array of Fibonacci sequence, up to the Nth occurrence, and
+3. print out the array.
+
+For example, if the user inputs 7, the output should be:
+0, 1, 1, 2, 3, 5, 8
+
+Q2: Sequential search
+Generate a String array of 50 US states' postal abbreviation (e.g., NY, NJ, CA). Allow user to input a string and search the string in the state abbreviation array. If found, print out "It is a valid state abbreviation!". If not, print out "It is NOT a valid state abbreviation!".
+
+Q3: Selection sort and binary search
+Create a solution for Q2, but sort the array first, and use binary search.
+
+Q4: 2D Array
+Write a program that creates a two-dimensional array of int initialized with test data. The program should have the following methods:
+• getRowTotal. This method should accept a two-dimensional array as its first argument and an integer as its second argument. The second argument should be the subscript of a row in the array. The method should return the total of the values in the specified row.
+• getColumnTotal. This method should accept a two-dimensional array as its first argument and an integer as its second argument. The second argument should be the subscript of a column in the array. The method should return the total of the values in the specified column.
+
