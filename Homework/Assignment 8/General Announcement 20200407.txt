@@ -1,0 +1,31 @@
+Hello everyone, please see the important information below.
+
+1. Homework #8
+
+There is only one assignment for homework #8, which is to create a simple tic-tac-toe application. The homework announcement has been posted as a separate announcement.
+
+2. Homework #7 sample answers
+
+Sample answers of Homework #7 has been posted to both Blackboard Content section and Github repository's Homework > Assignment 7 folder.
+
+3. Homework grades and submission
+
+As we discussed in class, I am seeing a decline in homework submission. Please note that Java is a highly hands-on skill. The only way to learn is to put your hands on keyboard, type in your code, make mistakes and fix them. If you can complete homework independently, you will meet the requirement of this course, including passing Test 2, Test 3, and final. 
+
+I usually give 3 points for every on-time homework submission, and 2 points for every late homework submission. Given the current situation, I will give 3 points to every homework submission, up to 30 points. Please make sure you finish all the homework and submit ASAP.
+
+4. Test 2
+
+Test 2 is on next Monday. It will be on Blackboard, with some multiple choices and some coding. Let me know if you have any technical difficulty.
+
+5. Online sessions and recording
+
+Yesterday some students were not able to connect into the session properly. I have created a guideline PDF and uploaded to the Contents section as weel as the root folder "Blackboard Collaborate Ultra.pdf" file of Github repository. Please review. The past two sessions are all recorded for you to review. The guideline PDF also provides instruction on how to access the recordings. Let me know if you have any issue accessing.
+
+6. Programming pattern sample code
+
+The sample codes we went through yesterday have been uploaded to both Blackboard Content section and Github repository's root folder "ProgrammingPatterns.java" file (with some improvements). Please make sure you understand each programming pattern and can use them to build your application.
+
+Let me know if you have any questions. Stay safe!
+
+Jun

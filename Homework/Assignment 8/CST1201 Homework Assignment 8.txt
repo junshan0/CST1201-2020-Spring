@@ -1,0 +1,76 @@
+CST1201 Homework Assignment 8
+
+Note: For this homework, the following must be followed:
+
+1. Proper indentation and usage of curly braces
+2. Input, output, and processing logic must be grouped properly into their own blocks and separated using empty lines.
+3. Detailed comments on what you try to do for each code block.
+4. Each result number must be calculated using a independent method.
+5. Each method must have proper method comments, including @param and @return
+
+Tic-tac-toe
+
+Please create a simple tic-tac-toe application. Your application should:
+1. Give a brief welcome message to the user. Then loop through the following steps.
+2. Ask the user for input:
+	2.1 Input must be coordination on the tic-tac-toe board. You can define how this coordination should be mapped to the spaces on board.
+	2.2 Input must be validated. For example, if you use (x,y) coordination, the input must be from 0,0 to 2,2.
+	2.3 First input belongs to Player 1 (X), second input belongs to Player 2 (O), third input Player 1 (X) again, and so on and so forth.
+3. Display the tic-tac-toe board. It should consists of X, O, or blank space. Columns are separated by | and rows are separated by -
+4. Check if the player wins. If the player wins or it has been the ninth step, exit out of the loop.
+5. Print out the result: Player 1 wins, Player 2 wins, or Draw.
+
+A sample interface will be:
+
+Output> Welcome to Tic-Tac-Toe
+Output> Player 1 please specify your move.
+Input > 0,0
+Output>  X |   |
+Output> ----------
+Output>    |   |
+Output> ----------
+Output>    |   |
+Output> Player 2 please specify your move.
+Input > 0,1
+Output>  X | O |
+Output> ----------
+Output>    |   |
+Output> ----------
+Output>    |   |
+Output> Player 1 please specify your move.
+Input > 1,0
+Output>  X | O |
+Output> ----------
+Output>  X |   |
+Output> ----------
+Output>    |   |
+Output> Player 2 please specify your move.
+Input > 2,0
+Output>  X | O |
+Output> ----------
+Output>  X |   |
+Output> ----------
+Output>  O |   |
+Output> Player 1 please specify your move.
+Input > 1,1
+Output>  X | O |
+Output> ----------
+Output>  X | X |
+Output> ----------
+Output>    |   |
+Output> Player 2 please specify your move.
+Input > 2,2
+Output>  X | O |
+Output> ----------
+Output>  X | X |
+Output> ----------
+Output>  O |   | O
+Output> Player 1 please specify your move.
+Input > 1,2
+Output>  X | O |
+Output> ----------
+Output>  X | X | X
+Output> ----------
+Output>  O |   | O
+Output> Player 1 wins!
+
